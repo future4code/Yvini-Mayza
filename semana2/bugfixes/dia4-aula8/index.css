@@ -112,6 +112,7 @@ div:last-child {
 table {
     width: 60%;
     text-align: center;
+    margin: 0 auto;
 }
 table img{
     width: 50px;
