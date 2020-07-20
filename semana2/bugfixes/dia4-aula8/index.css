@@ -130,6 +130,13 @@ td button {
     height: 100px;
 }
 
+.container-do-search input,.container-do-search input:focus,.container-do-search input:active{
+    border:none;
+    border-bottom: 1px solid black ;
+}
+
+
+
 
 #back-button {
     background-color: white;
