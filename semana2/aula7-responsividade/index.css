@@ -1,0 +1,140 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+
+    border: 1px solid black;
+}
+
+#first-block {
+    background-color: red;
+    height: 50px;
+    margin: 0px;
+}
+
+.blue-block {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
+    height: 50px;
+}
+
+.yellow-block {
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
+    height: 50px;
+    width: 47%;
+}
+
+.green-block {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: 8px;
+    height: 50px;
+    width: 100%;
+}
+
+.black-block {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: 8px;
+    height: 50px;
+}
+
+.white-block {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    height: 50px;
+}
+@media (min-width : 1200px) {
+    #main-container{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+    #first-block {
+        background-color: red;
+        height: 50px;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .blue-block {width: 34%;}
+
+    .yellow-block{width: 30%;}
+    .green-block{width: 30%;align-items: center;}
+    .black-block{width: 47%;height: 16em;align-items: center;}
+    .white-block{width: 31%;}
+}
+
+@media (min-width : 421px) and (max-width : 800px) {
+    #main-container{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #first-block {
+        background-color: red;
+        height: 50px;
+        margin: 0px;
+        width: 100%;
+      
+    }
+    .blue-block {
+        background-color: blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 8px;
+        height: 50px;
+        width: 48%;
+    }
+    .black-block {
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        margin: 8px;
+        height: 100px;
+        width: 46%;
+    }
+    .white-block {
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 8px;
+        height: 50px;
+        width: 47%;
+    }
+    #ultimo-bloco{
+        width: 100%;
+    }
+}
+
+@media  (min-width : 320px) and (max-width : 420px) {
+    #main-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
