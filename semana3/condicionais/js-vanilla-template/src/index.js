@@ -69,11 +69,11 @@
 //  }
 
                                         //    Exercicio 7
-let filme = prompt("qual é o gênero do filme?")
-let ingresso = prompt("quanto custa o ingresso ?")     
+// let filme = prompt("qual é o gênero do filme?")
+// let ingresso = prompt("quanto custa o ingresso ?")     
 
-if(filme === "fantasia"  && ingresso <=15){
-            console.log("Bom filme")
-}else {
-     console.log("Escolha outro filme")
-}
+// if(filme === "fantasia"  && ingresso <=15){
+//             console.log("Bom filme")
+// }else {
+//      console.log("Escolha outro filme")
+// }
