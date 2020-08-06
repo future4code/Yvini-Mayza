@@ -149,16 +149,3 @@
 //     identificarImagem()
 // }
 
-
-const filme ={
-   nome:"D.U.F.F. ",
-   direcao:" Ari Sandel ",
-   lancamento: 2015,
-   elenco:["Bianca piper","Wesley Rush","Madison"],
-   assistiu: true
-}
-console.log(filme)
-
-let dados=  (" O filme " + filme.nome  + " foi lançado em " +  filme.lancamento + "e dirigido por "+  filme.direcao)
-
-console.log(dados)
