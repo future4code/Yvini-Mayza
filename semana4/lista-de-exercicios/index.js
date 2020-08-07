@@ -53,3 +53,6 @@
 
 // Exercicio2
 
+// A- False
+// B- False
+// C-
