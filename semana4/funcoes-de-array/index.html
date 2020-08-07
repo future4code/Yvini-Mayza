@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js" defer> </script>
+    <link href="style.css">
+</head>
+<body>
+
+    <section>
+        <h1> Controlador de despesas</h1>
+
+        <p>Cadastar despesa</p>
+
+        <label>valor</label>
+        <input id="valor" type= "number" > 
+        
+        <label> Tipo (Casa, Viagem, Roles, Outros)</label>
+
+        <select id="tipo" name="opcoes"> 
+            <option value=" Casa " selected> Casa </option>
+            <option value="Viagem"> Viagem </option>
+            <option value="Roles"> Roles </option>
+            <option value="Outros"> Outros </option>
+        </select>
+
+        <label> Descrição </label>
+        <input id="descricao" type="text">
+
+        <button  onclick="cadastrarDespesas()" > Cadastrar despesas </button>
+
+    </section>
+
+      <section >
+          <h1> Despesas Detalhadas </h1>
+
+          <label> Tipo (Casa, Viagem, Roles, Outros)</label>
+
+          <select name="opcoes"> 
+              <option value=" Casa " selected> Casa </option>
+              <option value="Viagem"> Viagem </option>
+              <option value="Roles"> Roles </option>
+              <option value="Outros"> Outros </option>
+          </select>
+           
+          <label> Valor minimo </label>
+          <input id="valorMinimo" type="number">
+
+          <label> Valor maximo </label>
+          <input id="valorMaximo"type="number">
+
+          <button onclick="filtrar()"> Filtrar </button>
+          <button> Limpar Filtros </button>
+
+      </section>
+
+      <section>
+          <h1>Extrato</h1>
+          <h2> Valor Total :</h2>
+      </section>
+
+</body>
+</html>
