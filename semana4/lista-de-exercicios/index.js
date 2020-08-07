@@ -1,3 +1,5 @@
+                        // EXERCICIOS DE INTERPRETAÇÃO DE CODIGO
+
 // Exercicico 1 
 
 // Foi criado uma function conversorDeMoedas com o parametro valorEmDolar
@@ -31,4 +33,23 @@
 // foi criado um laço de repetição  que se o numero for menor que o numero1 o numero1 vai ser igual ao numero e vai percorrer array numeros 
 // até achar o numero menor . No segundo if se o numero for maior que o numero2 , o numero2 vai ser igual ao numero, e percorrer o array até achar o maior numero.
 // E foram criados dois consoles, o primeiro vai imprimir o numero que é menor, e segundo console vai imprimir o numero maior.
+
+                // Exercícios de Lógica de Programação
+
+// Exercicio1
+
+// let array = [1, 2, 3, 4]
+
+// for(let numero of array){
+//     console.log(numero)
+// }
+
+// const numero= [1, 2, 3, 4]
+
+// numero.forEach((numero, index,array) =>{
+//   numero.push(numero +1)
+// })
+// console.log(numero)
+
+// Exercicio2
 
