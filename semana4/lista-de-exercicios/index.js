@@ -16,3 +16,11 @@
 // Fora da função foi criada duas constantes que passam os parâmetros.
 // No primeiro console.log será exibido o valor após o investimento, que será 150 * 1.1, conforme o case dentro do Switch
 // e no segundo console caíra no default do switch que retornará "Tipo de investimento informado incorreto"
+
+// Exercicico 3
+
+//  Foram criados 3 arrays , o array numeros com diversos números e os outros dois vazios.
+// foi feito um laço de repetição que percorre o array numeros e verifica em uma condicional se o numero é par..
+// Caso seja par , o número vai ser adicionado no array1 , e se for impar o número vai ser adicionado no array2.
+// Foram criados 3 console.log, o primeiro imprime no console o tamanho do array numeros,
+// o segundo o tamanho do array1, e o terceiro do array2
