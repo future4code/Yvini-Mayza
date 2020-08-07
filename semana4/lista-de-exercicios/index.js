@@ -24,3 +24,11 @@
 // Caso seja par , o número vai ser adicionado no array1 , e se for impar o número vai ser adicionado no array2.
 // Foram criados 3 console.log, o primeiro imprime no console o tamanho do array numeros,
 // o segundo o tamanho do array1, e o terceiro do array2
+
+// Exercicico 4
+ 
+// Foi criado um array  e dois let, o let numero1 que tem o valor infinity e o let numero2 que recebe o valor de 0.
+// foi criado um laço de repetição  que se o numero for menor que o numero1 o numero1 vai ser igual ao numero e vai percorrer array numeros 
+// até achar o numero menor . No segundo if se o numero for maior que o numero2 , o numero2 vai ser igual ao numero, e percorrer o array até achar o maior numero.
+// E foram criados dois consoles, o primeiro vai imprimir o numero que é menor, e segundo console vai imprimir o numero maior.
+
