@@ -1,0 +1,15 @@
+.littleCard{    
+    display: flex;
+    border: 1px solid;
+    padding: 10px 5px;
+
+}
+
+.littleCard img{
+    width: 30px;
+}
+
+.littleCard p{
+   align-self: center;
+   margin-left: 12px;
+}
