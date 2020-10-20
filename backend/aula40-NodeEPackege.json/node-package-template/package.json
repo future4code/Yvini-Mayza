@@ -11,7 +11,7 @@
     "start-sub":"node index.js sub 8 10",
     "start-mult":"node index.js div 50 2",
     "start-div":"node index.js mult 100 2",
-    "start-addtaks":"node index.js "
+    "start-addtaks":"node index.js task"
   },
   "keywords": [],
   "author": "",
