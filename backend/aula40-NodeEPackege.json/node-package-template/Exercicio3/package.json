@@ -1,0 +1,12 @@
+{
+  "name": "exercicio3",
+  "version": "1.0.0",
+  "description": "Exercicio3",
+  "main": "Exercicio3.js",
+  "scripts": {
+    "test": "jest",
+    "start-addtask":"node Exercicio3 "
+  },
+  "author": "Yvini",
+  "license": "ISC"
+}

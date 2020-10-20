@@ -1,0 +1,12 @@
+{
+  "name": "exercicio1",
+  "version": "1.0.0",
+  "description": "exercicio1",
+  "main": "Exercicio1.js",
+  "scripts": {
+    "test": "jest",
+    "start-yvini": "node exercicio1 'Yvini' 18"
+  },
+  "author": "Yvini",
+  "license": "ISC"
+}

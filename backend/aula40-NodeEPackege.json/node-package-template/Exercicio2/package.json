@@ -1,0 +1,15 @@
+{
+  "name": "exercicio2",
+  "version": "1.0.0",
+  "description": "exercicio2",
+  "main": "Exercicio2.js",
+  "scripts": {
+    "test": "jest",
+    "start-add":"node Exercicio2.js sum 2 2",
+    "start-sub":"node Exercicio2.js  sub 8 10",
+    "start-mult":"node Exercicio2.js div 50 2",
+    "start-div":"node Exercicio2.js mult 100 2"
+  },
+  "author": "Yvini",
+  "license": "ISC"
+}
